@@ -1,4 +1,4 @@
-#This workflow triggered by inputs
+#This workflow triggered by inputs and environment
 name: Github Actions Inputs Demo
 run-name: ${{ github.actor }} is testing out Github Actions
 on:
