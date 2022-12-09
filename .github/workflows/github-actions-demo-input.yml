@@ -1,9 +1,12 @@
+name: Github Actions Inputs Demo
+run-name: ${{ github.actor }} is testing out Github Actions
 on:
   workflow_dispatch:
     inputs:
       LogLevel:
         description: 'Log level'
         required: true
+        default: 'warning'
         type: choice
         options:
         -info
