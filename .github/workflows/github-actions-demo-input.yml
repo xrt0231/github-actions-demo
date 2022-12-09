@@ -19,6 +19,7 @@ on:
         type: boolean
       environment:
         description: 'Environment to run tests against'
+        required: false
         type: environment
         required: true
 
