@@ -1,6 +1,6 @@
 var http = require('http');
 var server = http.createServer(function (req, res) {
-    //handle icomming request here...
+    //handle icomming request here....
     if (req.url == '/') {
 
         console.log('root url been called...');
